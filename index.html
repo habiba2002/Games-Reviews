@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games Reviews</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <script src="JS/all.min.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg w-75 rounded-4 mx-auto my-5" id="navbar">
+        <div class="container-fluid d-flex justify-content-between">
+            <a class="navbar-brand ps-3 w-50 text-white" style="letter-spacing: 1px;" href="#">Games Reviews</a>
+            <button class="navbar-toggler w-25 text-center border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse w-75" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" category="shooter">SHOOTER</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#" category="mmorpg">MMORPG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#" category="sailing">SAILING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#" category="permadeath">PERMADEATH</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#" category="superhero">SUPERHERO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#" category="pixel">PIXEL</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="row g-3 w-75 mx-auto" id="games">
+    </div>
+    <div id="details" class="d-none text-white">
+    </div>
+    <div class="load d-none justify-content-center align-items-center" id="load">
+        <span class="loader"></span>
+    </div>
+
+    <script src="JS/index.js" type="module"></script>
+</body>
+
+</html>
